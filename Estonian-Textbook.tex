@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.1 (4/8/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+				twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+                footinclude=true,cleardoublepage=empty,
+                BCOR=5mm,paper=letter,fontsize=11pt, % Binding correction, paper type and font size
+                estonian,swedish,spanish,american, % Languages
+                ]{scrreprt} 
+                
+\input{classicthesis-config} % File which contains all the document configurations and packages
+
+\begin{document}
+
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{spanish} % Default language
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT BOOK PAGES
+%----------------------------------------------------------------------------------------
+
+\include{FrontBackMatter/Titlepage} 
+
+\include{FrontBackMatter/Titleback} 
+
+\cleardoublepage\include{FrontBackMatter/Dedication} 
+
+\cleardoublepage\include{FrontBackMatter/Foreword} 
+
+\cleardoublepage\include{FrontBackMatter/Translation} 
+
+\cleardoublepage\include{FrontBackMatter/Acknowledgments}
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+\cleardoublepage\include{FrontBackMatter/Contents} 
+
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+
+\cleardoublepage\include{FrontBackMatter/Abreviations} 
+
+\cleardoublepage 
+
+%----------------------------------------------------------------------------------------
+%	BOOK CONTENT - LESSONS
+%----------------------------------------------------------------------------------------
+
+\ctparttext{Dentro de esta primera parte se expondrán la introducción y las 40 lecciones principales que constituyen el fuerte del libro. Es altamente recomendable realizar los ejercicios propuestos al final de cada lección, pues ayuda a decantar la teoría expuesta en la misma y proporciona un escenario real de aplicación.} 
+
+\part{Manual Estonio} 
+
+\include{Lessons/Introduction}
+\include{Lessons/Lesson01}
+\include{Lessons/Lesson02}
+\include{Lessons/Lesson03} 
+\include{Lessons/Lesson04}
+\include{Lessons/Lesson05}
+\include{Lessons/Lesson06}
+\include{Lessons/Lesson07}
+\include{Lessons/Lesson08}
+\include{Lessons/Lesson09}
+\include{Lessons/Lesson10}
+\include{Lessons/Lesson11}
+\include{Lessons/Lesson12}
+\include{Lessons/Lesson13}
+\include{Lessons/Lesson14}
+\include{Lessons/Lesson15}
+\include{Lessons/Lesson16}
+\include{Lessons/Lesson17}
+\include{Lessons/Lesson18}
+\include{Lessons/Lesson19}
+\include{Lessons/Lesson20}
+\include{Lessons/Lesson21}
+\include{Lessons/Lesson22}
+\include{Lessons/Lesson23}
+\include{Lessons/Lesson24}
+\include{Lessons/Lesson25}
+\include{Lessons/Lesson26}
+\include{Lessons/Lesson27}
+\include{Lessons/Lesson28}
+\include{Lessons/Lesson29}
+\include{Lessons/Lesson30}
+\include{Lessons/Lesson31}
+\include{Lessons/Lesson32}
+\include{Lessons/Lesson33}
+\include{Lessons/Lesson34}
+\include{Lessons/Lesson35}
+\include{Lessons/Lesson36}
+\include{Lessons/Lesson37}
+\include{Lessons/Lesson38}
+\include{Lessons/Lesson39}
+\include{Lessons/Lesson40}
+
+\cleardoublepage 
+
+%----------------------------------------------------------------------------------------
+%	BOOK CONTENT - DICTIONARY
+%----------------------------------------------------------------------------------------
+
+\ctparttext{Esta segunda parte corresponde a un pequeño diccionario Estonio-Inglés con todas las palabras utilizadas durante las lecciones. Sin embargo no está disponible un diccionario Inglés-Estonio, por el momento.}
+
+\part{Diccionario}
+
+\include{Lessons/Dictionary}
+
+%----------------------------------------------------------------------------------------
+%	BOOK CONTENT - APPENDIX
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+\part{Apéndice} 
+
+\include{Lessons/AppendixA} % Appendix A
+%\include{Lessons/AppendixB} % Appendix B 
+
+\end{document}
