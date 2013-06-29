@@ -6,8 +6,9 @@ Traducción **no-oficial** al español del texto *Estonian Textbook* de *Juhan T
 Texto Original en Inglés
 ------------------------
 
-Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 1995. 379 pp. ISBN 0-933070-34-9
+[![Estonian Flower](http://img2.imagesbn.com/p/9780933070349_p0_v1_s260x420.gif)](http://www.barnesandnoble.com/w/estonian-textbook-juhan-tuldava/1001235846?ean=9780933070349)
 
+Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 1995. 379 pp. ISBN 0-933070-34-9
 
 Plantilla LaTeX
 ---------------
