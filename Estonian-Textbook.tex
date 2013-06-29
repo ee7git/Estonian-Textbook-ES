@@ -22,7 +22,7 @@
 \documentclass[
 				twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
                 footinclude=true,cleardoublepage=empty,
-                BCOR=5mm,paper=letter,fontsize=11pt, % Binding correction, paper type and font size
+                BCOR=5mm,paper=letter,fontsize=9pt, % Binding correction, paper type and font size
                 estonian,swedish,spanish,american, % Languages
                 ]{scrreprt} 
                 
@@ -50,10 +50,6 @@
 
 \cleardoublepage\include{FrontBackMatter/Dedication} 
 
-\cleardoublepage\include{FrontBackMatter/Foreword} 
-
-\cleardoublepage\include{FrontBackMatter/Translation} 
-
 \cleardoublepage\include{FrontBackMatter/Acknowledgments}
 
 \pagestyle{scrheadings} % Show chapter titles as headings
@@ -61,6 +57,10 @@
 \cleardoublepage\include{FrontBackMatter/Contents} 
 
 \pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+
+\cleardoublepage\include{FrontBackMatter/Foreword} 
+
+\cleardoublepage\include{FrontBackMatter/Translation} 
 
 \cleardoublepage\include{FrontBackMatter/Abreviations} 
 
