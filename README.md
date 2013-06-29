@@ -1,7 +1,7 @@
 Estonian Textbook
 =================
 
-Traducción **no-oficial** al español del texto *Estonian Textbook* de *Juhan Tuldava*, traducido a su vez al inglés por *Ain Haas*.
+Traducción **no-oficial** al español del texto *Estonian Textbook* de *Juhan Tuldava*. Poseo el permiso explícito de *Ain Haas* para el desarrollo de la presente traducción hispana.
 
 Texto Original en Inglés
 ------------------------
@@ -12,6 +12,6 @@ Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 19
 Plantilla LaTeX
 ---------------
 
-Para el desarrollo del libro se utilizó la plantilla *classicthesis* desarrollada por el Dr. *André Miede*.
+Para el desarrollo del libro se utilizó la plantilla *classicthesis* desarrollada por el Dr. *André Miede*. Está más que recomendada para aquellos que desean escribir su tesis, doctorado o libro en LaTeX.
 
-[Página oficial](http://postcards.miede.de/)
+[Página oficial de André Miede](http://postcards.miede.de/) *(Pueden descargar la plantilla desde la misma página)*
