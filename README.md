@@ -14,4 +14,4 @@ Plantilla LaTeX
 
 Para el desarrollo del libro se utilizó la plantilla *classicthesis* desarrollada por el Dr. *André Miede*. Está más que recomendada para aquellos que desean escribir su tesis, doctorado o libro en LaTeX.
 
-[Página oficial de André Miede](http://postcards.miede.de/) *(Pueden descargar la plantilla desde la misma página)*
+[Página oficial de André Miede](http://miede.de/) *(Pueden descargar la plantilla desde la misma página)*
