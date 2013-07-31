@@ -13,4 +13,4 @@ clean:
 
 clean-all: 
 	make clean
-	rm -f pdf/$(filename).pdf
+	rm -f $(filename).pdf
