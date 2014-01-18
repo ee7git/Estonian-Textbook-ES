@@ -1,16 +1,11 @@
-# Pequeño Makefile de ayuda
-
-filename = Estonian-Textbook
-
-compile-twice: $(filename).tex
-	pdflatex $(filename).tex 
-	pdflatex $(filename).tex 
-
-clean: 
-	rm -f $(filename).aux $(filename).out $(filename).log $(filename).toc
-	rm -f lessons/*.aux
-	rm -f include/*.aux
-
-clean-all: 
+PDF = pdflatex
+BIB = bibtex
+OBJ = Estonian-Textbook-ES
+all:
+	$(PDF) $(OBJ).tex
+	$(BIB) $(OBJ).aux
+	$(PDF) $(OBJ).tex
+	$(PDF) $(OBJ).tex
 	make clean
-	rm -f $(filename).pdf
+clean:
+	rm -f *.log *.aux *.blg *.bbl *.toc *.lof *.lot *.out *.lol Chapters/*.aux FrontBackMatter/*.aux

@@ -1,18 +1,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Configuration File
+% Thesis Configuration File
 %
 % The main lines to change in this file are in the DOCUMENT VARIABLES
 % section, the rest of the file is for advanced configuration.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\PassOptionsToPackage{dottedtoc,eulerchapternumbers,pdfspacing,subfig,beramono,eulermath,parts}{classicthesis}
+%----------------------------------------------------------------------------------------
+%	DOCUMENT VARIABLES
+%	Fill in the lines below to enter your information into the thesis template
+%	Each of the commands can be cited anywhere in the thesis
+%----------------------------------------------------------------------------------------
+
+% Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
+\PassOptionsToPackage{eulerchapternumbers,listings,drafting, pdfspacing, subfig,beramono,eulermath,parts}{classicthesis}
+% Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
+% Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
 
 \newcommand{\myTitle}{Estonian Textbook\xspace}
 \newcommand{\mySubtitle}{Traducci\'on no-oficial al espa\~nol \xspace}
 \newcommand{\myName}{Juhan Tuldava \dag \xspace}
-\newcommand{\myTime}{2013\xspace}
-\newcommand{\myVersion}{versi\'on 0.00\xspace}
+\newcommand{\myTime}{2014\xspace}
+\newcommand{\myVersion}{versi\'on 0.00 \xspace}
 
 %----------------------------------------------------------------------------------------
 %	USEFUL COMMANDS
@@ -23,6 +32,7 @@
 \newcommand{\eg}{e.\,g.}
 \newcommand{\Eg}{E.\,g.} 
 \newcommand{\bemph}{\textbf}
+
 \newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
 \providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
 
@@ -47,6 +57,16 @@
 % Spanish languages need extra options in order to work with this template
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
 \usepackage[swedish, estonian, spanish]{babel}
+
+%------------------------------------------------			
+
+%\PassOptionsToPackage{square,numbers}{natbib}
+% \usepackage{natbib}
+ 
+ %------------------------------------------------
+
+%\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+% \usepackage{amsmath}
  
  %------------------------------------------------
 
@@ -72,9 +92,14 @@
 
 %------------------------------------------------
 
+%\renewcommand*{\acsfont}[1]{\textssc{#1}} % For MinionPro
+\renewcommand{\bflabel}[1]{{#1}\hfill} % Fix the list of acronyms
+
+%------------------------------------------------
+
 \PassOptionsToPackage{pdftex}{graphicx}
 \usepackage{graphicx} 
-  
+
 %----------------------------------------------------------------------------------------
 %	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
 %----------------------------------------------------------------------------------------
@@ -85,7 +110,30 @@
 \newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
 \usepackage{caption}
 \captionsetup{format=hang,font=small}
-\usepackage{subfig}
+\usepackage{subfig}  
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTINGS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex, % Specify the language for listings here
+keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
+basicstyle=\small\ttfamily, % Makes listings a smaller font size and a different font
+%identifierstyle=\color{NavyBlue}, % Color of text inside brackets
+commentstyle=\color{Green}\ttfamily, % Color of comments
+stringstyle=\rmfamily, % Font type to use for strings
+numbers=left, % Change left to none to remove line numbers
+numberstyle=\scriptsize, % Font size of the line numbers
+stepnumber=5, % Increment of line numbers
+numbersep=8pt, % Distance of line numbers from code listing
+showstringspaces=false, % Sets whether spaces in strings should appear underlined
+breaklines=true, % Force the code to stay in the confines of the listing box
+%frameround=ftff, % Uncomment for rounded frame
+frame=single, % Frame border - none/leftline/topline/bottomline/lines/single/shadowbox/L
+belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text and the listing box
+}
 
 %----------------------------------------------------------------------------------------
 %	HYPERREFERENCES
@@ -181,3 +229,22 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \usepackage{classicthesis} 
 
 %----------------------------------------------------------------------------------------
+%	CHANGING TEXT AREA 
+%----------------------------------------------------------------------------------------
+
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+
+%----------------------------------------------------------------------------------------
+%	USING DIFFERENT FONTS
+%----------------------------------------------------------------------------------------
+
+%\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty} % Computer Modern with osf
+%\usepackage[light,condensed,math]{iwona}
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} <-- no osf support :-(
