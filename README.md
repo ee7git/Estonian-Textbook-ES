@@ -1,5 +1,4 @@
-# Estonian Textbook
-## Traducción **no-oficial** al español.
+# Estonian Textbook *Traducción al Español*
 
 ### Licencia
 
