@@ -1,36 +1,32 @@
-Estonian Textbook
-=================
+# Estonian Textbook
+## Traducción **no-oficial** al español.
 
-Traducción **no-oficial** al español.
+### Licencia
 
-Publicado bajo licencia *Creative Commons BY-NC-AS*. 
+*Creative Commons BY-NC-AS*. 
 
 [![cc-by-nc-sa](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
 
-Texto Original en Inglés
-------------------------
+### Texto Original
 
 Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 1995. 379 pp. ISBN 0-933070-34-9
 
 [![Estonian Textbook](http://img2.imagesbn.com/p/9780933070349_p0_v1_s260x420.gif)](http://www.barnesandnoble.com/w/estonian-textbook-juhan-tuldava/1001235846?ean=9780933070349)
 
+### Plantilla LaTeX
 
-Plantilla *classicthesis*
------------------------
-
-Se utilizó la plantilla *classicthesis* desarrollada por *Dr. André Miede*.
+El libro esta basado en la plantilla *classicthesis* desarrollada por *Dr. André Miede*.
 
 [Página oficial de André Miede](http://miede.de/)
+
 [classicthesis](https://classicthesis.googlecode.com/files/classicthesis.v4.1.zip)
 
-
-Compilación
------------
+### Compilación
 
 Para compilar el libro hay que tener la herramienta [TexLive](http://www.tug.org/texlive/) y [make](http://www.gnu.org/software/make/).
 
-Practicamente todas las distribuciones GNU/Linux tienen *TexLive* en sus repositorios, sólo deben consultar el nombre relativo a cada distribución. *(recomendado)*
+Prácticamente todas las distribuciones GNU/Linux tienen *TexLive* en sus repositorios, sólo deben consultar el nombre relativo a cada distribución. *(recomendado)*
 
 * [Debian Based](https://wiki.debian.org/Latex)
 * [Fedora Based](http://fedoraproject.org/wiki/Features/TeXLive)
