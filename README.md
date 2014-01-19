@@ -20,7 +20,7 @@ Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 19
 
 [classicthesis](https://classicthesis.googlecode.com/files/classicthesis.v4.1.zip), desarrollada por el [Dr. André Miede](http://miede.de/).
 
-### Español Latinoamericano
+### Idioma: Español Latinoamericano
 
 Debido a mi origen---y para evitar mezclar más de un tipo de español dentro del mismo texto---utilizaré el español latinoamericano *relativamente estándar*. Sería interesante que algún hispanohablante europeo creara su propia versión del libro. De todas formas ambos tipos de español no difieren en demasía en términos gramaticales.
 
