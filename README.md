@@ -17,11 +17,9 @@ Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 19
 
 ### Plantilla LaTeX
 
-El libro esta basado en la plantilla *classicthesis* desarrollada por *Dr. André Miede*.
+[classicthesis](https://classicthesis.googlecode.com/files/classicthesis.v4.1.zip) (desarrollada por *Dr. André Miede*).
 
 [Página oficial de André Miede](http://miede.de/)
-
-[classicthesis](https://classicthesis.googlecode.com/files/classicthesis.v4.1.zip)
 
 ### Compilación
 
