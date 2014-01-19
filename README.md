@@ -84,3 +84,9 @@ $ pdflatex Estonian-Textbook-ES.tex
 ```
 
 *Se compila dos veces al final para asegurar una buena generación del índice.*
+
+Luego podemos abrimos el archivo *.pdf* con nuestro visor PDF favorito
+
+```
+$ evince Estonian-Textbook-ES.pdf &
+```
