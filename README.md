@@ -32,7 +32,7 @@ Prácticamente todas las distribuciones GNU/Linux tienen *TexLive* en sus reposi
 * [Arch Based](https://wiki.archlinux.org/index.php/TeX_Live)
 * ...
 
-También desde la misma página pueden descargar el instalador y seguir las instrucciones para *Windows*&reg; (a.k.a. Wintendo) y/o *GNU/Linux*.
+También desde la misma página oficial de *TexLive* pueden descargar el instalador y seguir las instrucciones para *Windows*&reg; (a.k.a. Wintendo) y/o *GNU/Linux*.
 
 Una vez instalado *TexLive*, simplemente entramos a la carpeta principal *Estonian-Textbook-ES* y ejecutamos `make`.
 
