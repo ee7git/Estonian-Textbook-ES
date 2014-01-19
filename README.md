@@ -22,11 +22,11 @@ Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 19
 
 ### Idioma: Español Latinoamericano
 
-Debido a mi origen---y para evitar mezclar más de un tipo de español dentro del mismo texto---utilizaré el español latinoamericano *relativamente estándar*. Sería interesante que algún hispanohablante europeo creara su propia versión del libro. De todas formas ambos tipos de español no difieren en demasía en términos gramaticales.
+Debido a mi origen---y para evitar mezclar más de un tipo de español dentro del mismo texto---utilizaré el español latinoamericano *(relativamente estándar)*. Sería interesante que algún hispanohablante europeo creara alguna versión alternativa del libro en Castellano.
 
 ## Requerimientos & Compilación
 
-Las instrucciones descritas a continuación están pensadas para sistemas GNU/Linux. Si eres usuario de Windows&reg; (a.k.a. Wintendo), lamentablemente no te podré ser de mucha ayuda (hace muchos años que no uso Wintendo).
+Las instrucciones descritas a continuación están pensadas para sistemas GNU/Linux. Si eres usuario de Windows&reg; (a.k.a. Wintendo), lamentablemente no te podré ser de mucha ayuda :c (hace muchos años que no uso Wintendo).
 
 ### Requerimientos
 
@@ -69,14 +69,14 @@ Una forma alternativa corresponde a descargar desde la página oficial de *TexLi
 Simplemente debemos abrir una terminal y escribir :
 
 ```
-$ cd **/dirección_donde_está_la_carpeta**/Estonian-Textbook-ES
+$ cd /dirección_donde_está_la_carpeta/Estonian-Textbook-ES
 $ make
 ```
 
 Alternativamente pueden no ocupar *make* y compilarlo directamente :
 
 ```
-$ cd **/dirección_donde_está_la_carpeta**/Estonian-Textbook-ES
+$ cd /dirección_donde_está_la_carpeta/Estonian-Textbook-ES
 $ pdflatex Estonian-Textbook-ES.tex
 $ bibtex Estonian-Textbook-ES.aux
 $ pdflatex Estonian-Textbook-ES.tex
