@@ -1,6 +1,6 @@
 # Estonian Textbook ES_LA
 
-*Traducción al Español del libro Estonian Textbook, escrito originalmente en sueco por [Juhan Tuldava](http://et.wikipedia.org/wiki/Juhan_Tuldava) y traducido al inglés por el profesor [Ain Haas](http://liberalarts.iupui.edu/directory/bio/ahaas)*
+*Traducción al Español Latino del manual **Estonian Textbook**, escrito originalmente por [Juhan Tuldava](http://et.wikipedia.org/wiki/Juhan_Tuldava) en sueco y traducido al inglés por el profesor [Ain Haas](http://liberalarts.iupui.edu/directory/bio/ahaas)*
 
 ## Información General
 
@@ -10,32 +10,32 @@
 
 [![cc-by-nc-sa](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
-### Texto Original
+### Texto Original en Inglés
 
-Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 1995. 379 pp. ISBN 0-933070-34-9
+*Tuldava, J. Estonian Textbook: Grammar, Exercises, Conversation. Bloomington. 1995. 379 pp. ISBN 0-933070-34-9*
 
 [![Estonian Textbook](http://img2.imagesbn.com/p/9780933070349_p0_v1_s260x420.gif)](http://www.barnesandnoble.com/w/estonian-textbook-juhan-tuldava/1001235846?ean=9780933070349)
 
 ### Plantilla LaTeX
 
-[classicthesis](https://classicthesis.googlecode.com/files/classicthesis.v4.1.zip), desarrollada por el [Dr. André Miede](http://miede.de/).
+[classicthesis](https://classicthesis.googlecode.com/files/classicthesis.v4.1.zip), desarrollada por [Dr. André Miede](http://miede.de/).
 
-### Idioma: Español Latinoamericano
+### Español Latinoamericano
 
-Debido a mi origen---y para evitar mezclar más de un tipo de español dentro del mismo texto---utilizaré el español latinoamericano *(relativamente estándar)*. Sería interesante que algún hispanohablante europeo creara alguna versión alternativa del libro en Castellano.
+La diversas ramas evolutivas del *Español* a lo largo del tiempo y el espacio pueden verse reflejadas tanto en la pronunciación, entonación e interpretación de las distintas palabras. Además, existen ligeras divergencias gramaticales que pueden resultar en confusiones al momento de estudiar las lecciones expuestas.
+
+Es por la situación recién descrita que el presente texto se limitará al uso del Español Latino, descendiente del Castellano (uno de los tantos dialectos que conforman el conjunto conocido como *Español*), intentando a su vez estandarizar los distintos dialectos hablados en América Latina.
 
 ## Requerimientos & Compilación
 
-Las instrucciones descritas a continuación están pensadas para sistemas GNU/Linux. Si eres usuario de Windows&reg; (a.k.a. Wintendo), lamentablemente no te podré ser de mucha ayuda :c (hace muchos años que no uso Wintendo).
+Las instrucciones descritas a continuación están pensadas para sistemas operativos GNU/Linux.
 
 ### Requerimientos
-
-Para poder compilar el libro hay que tener instaladas los siguientes paquetes
 
 * [TexLive](http://www.tug.org/texlive/) 
 * [make](http://www.gnu.org/software/make/).
 
-Prácticamente todas las distribuciones GNU/Linux tienen ambos paquetes en sus repositorios, sólo deben consultar el nombre relativo a cada distribución. Para las distribuciones más populares tenemos :
+Prácticamente todas las distribuciones GNU/Linux tienen ambos paquetes en sus repositorios, sólo deben consultar el nombre relativo a cada distribución. Para las distribuciones más populares se tiene :
 
 * [Debian](https://wiki.debian.org/Latex)
 
@@ -62,31 +62,25 @@ $ sudo pacman -S texlive-most texlive-lang
 $ sudo pacman -S make
 ```
 
-Una forma alternativa corresponde a descargar desde la página oficial de *TexLive* el instalador y seguir las instrucciones para Windows&reg; y/o GNU/Linux, pero es recomendable instalarlo desde los repositorios.
+Una forma alternativa corresponde a descargar desde la página oficial de *TexLive* el instalador y seguir las instrucciones para Windows&reg; y/o GNU/Linux.
 
 ### Compilación
 
-Simplemente debemos abrir una terminal y escribir :
+Utilizando *make* :
 
 ```
-$ cd /dirección_donde_está_la_carpeta/Estonian-Textbook-ES
+$ cd /Estonian-Textbook-ES/
 $ make
 ```
 
-Alternativamente pueden no ocupar *make* y compilarlo directamente :
+Compilarlo directamente :
 
 ```
-$ cd /dirección_donde_está_la_carpeta/Estonian-Textbook-ES
+$ cd /Estonian-Textbook-ES
 $ pdflatex Estonian-Textbook-ES.tex
 $ bibtex Estonian-Textbook-ES.aux
 $ pdflatex Estonian-Textbook-ES.tex
 $ pdflatex Estonian-Textbook-ES.tex
 ```
 
-*Se compila dos veces al final para asegurar una buena generación del índice.*
-
-Luego podemos abrimos el archivo *.pdf* con nuestro visor PDF favorito
-
-```
-$ evince Estonian-Textbook-ES.pdf &
-```
+*La doble compilación al final es para asegurar una buena generación del índice.*
