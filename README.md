@@ -1,6 +1,6 @@
 # Estonian Textbook ES_LA
 
-*Traducción al Español Latino del manual **Estonian Textbook**, escrito originalmente por [Juhan Tuldava](http://et.wikipedia.org/wiki/Juhan_Tuldava) en sueco y traducido al inglés por el profesor [Ain Haas](http://liberalarts.iupui.edu/directory/bio/ahaas)*
+Traducción al Español Latino del manual *Estonian Textbook*, escrito originalmente por [Juhan Tuldava](http://et.wikipedia.org/wiki/Juhan_Tuldava) en sueco y traducido al inglés por el profesor [Ain Haas](http://liberalarts.iupui.edu/directory/bio/ahaas)
 
 ## Información General
 
@@ -24,7 +24,7 @@
 
 La diversas ramas evolutivas del *Español* a lo largo del tiempo y el espacio pueden verse reflejadas tanto en la pronunciación, entonación e interpretación de las distintas palabras. Además, existen ligeras divergencias gramaticales que pueden resultar en confusiones al momento de estudiar las lecciones expuestas.
 
-Es por la situación recién descrita que el presente texto se limitará al uso del Español Latino, descendiente del Castellano (uno de los tantos dialectos que conforman el conjunto conocido como *Español*), intentando a su vez estandarizar los distintos dialectos hablados en América Latina.
+Es por la situación recién descrita que el presente texto se limitará al uso del Español Latino, descendiente del Castellano (uno de los tantos dialectos que conforman el conjunto de lenguas conocido como *Español*), intentando a su vez estandarizar los distintos dialectos hablados en América Latina.
 
 ## Requerimientos & Compilación
 
