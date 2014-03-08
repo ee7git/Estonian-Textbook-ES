@@ -73,7 +73,7 @@ $ cd /Estonian-Textbook-ES/
 $ make
 ```
 
-Compilarlo directamente :
+Compilando directamente :
 
 ```
 $ cd /Estonian-Textbook-ES
