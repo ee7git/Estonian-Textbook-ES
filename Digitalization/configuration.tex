@@ -1,0 +1,122 @@
+\selectlanguage{english}
+
+\graphicspath{{img/}}
+
+% Lazy misc
+\newcommand{\m}[1]{\textbf{#1}} % 'm' from 'must'
+\newcommand{\n}[1]{\textit{#1}} % just because 'n' is near 'm'
+\newcommand{\p}[1]{\underline{#1}}
+
+% Fancy sections' symbol
+\newcounter{fancysection}
+\newcommand{\newSection}
+{
+	\stepcounter{fancysection} 
+	\vspace*{1.5em}\textbf{\textsection\hspace*{0.3em}\arabic{fancysection}.}\hspace*{0.5em}
+}
+
+% Fancy lessons' title
+\newcounter{fancylesson}
+\newcommand{\newLesson}
+{
+	\stepcounter{fancylesson} 
+	\begin{center}
+		\textbf{{\huge Lesson\hspace*{0.5em}\arabic{fancylesson}}}
+	\end{center}
+}
+
+% Fancy Lessons' items
+\newcommand{\sectionItem}[1]{\vspace*{1em} {\Large\n{#1}} \vspace*{1em}}
+\newcommand{\Grammar}{\sectionItem{Grammar}}
+\newcommand{\Vocabulary}{\sectionItem{Vocabulary}}
+\newcommand{\Exercises}{\sectionItem{Exercises}}
+\newcommand{\Expressions}{\sectionItem{Expressions}}
+\newcommand{\AnswersToExercises}{\sectionItem{Answer to Exercises}}
+\newcommand{\Title}[1]{\begin{center}{\large \m{#1}}\end{center}}
+
+% To write Estonian words properly
+\newcommand{\et}[1]{\foreignlanguage{estonian}{#1}}
+\newcommand{\etBegin}{\selectlanguage{estonian}}
+\newcommand{\etEnd}{\selectlanguage{english}}
+
+
+
+\newcommand{\oneColumnTable}{
+	\etBegin
+	\begin{center}
+	\begin{tabular}{ l }
+}
+\newcommand{\twoColumnsTable}{
+	\etBegin
+	\begin{center}
+	\begin{tabular}{ l l }
+}
+\newcommand{\threeColumnsTable}{
+	\etBegin
+	\begin{center}
+	\begin{tabular}{ l l l }
+}
+\newcommand{\twoFixedColumnsTable}{
+	\etBegin
+	\begin{center}
+	\begin{tabular}{ p{0.4\textwidth} p{0.4\textwidth} }
+}
+\newcommand{\tableEnd}
+{
+	\end{tabular}
+	\end{center}
+	\etEnd	
+}
+
+
+% Abbreviations & Symbols
+
+\newcommand{\abbr}{\small [\n{abbr.}]}
+\newcommand{\abess}{\small [\n{abess.}]}
+\newcommand{\abl}{\small [\n{abl.}]}
+\newcommand{\adess}{\small [\n{adess.}]}
+\newcommand{\adj}{\small [\n{adj.}]}
+\newcommand{\adv}{\small [\n{adv.}]}
+\newcommand{\all}{\small [\n{all.}]}
+\newcommand{\comit}{\small [\n{comit.}]}
+\newcommand{\comp}{\small [\n{comp.}]}
+\newcommand{\conj}{\small [\n{conj.}]}
+\newcommand{\cont}{\small [\n{cont.}]}
+\newcommand{\dimi}{\small [\n{dim.}]}
+\newcommand{\eg}{\small [\n{e.g.}]}
+\newcommand{\elat}{\small [\n{elat.}]}
+\newcommand{\empha}{\small [\n{emph.}]}
+\newcommand{\etc}{\small [\n{etc.}]}
+\newcommand{\gen}{\small [\n{gen.}]}
+\newcommand{\ie}{\small [\n{i.e.}]}
+\newcommand{\ill}{\small [\n{ill.}]}
+\newcommand{\imper}{\small [\n{imper.}]}
+\newcommand{\imperf}{\small [\n{imperf.}]}
+\newcommand{\indecl}{\small [\n{indecl.}]}
+\newcommand{\iness}{\small [\n{iness.}]}
+\newcommand{\infi}{\small [\n{inf.}]}
+\newcommand{\interj}{\small [\n{interj.}]}
+\newcommand{\lit}{\small [\n{lit.}]}
+\newcommand{\noun}{\small [\n{n.}]}
+\newcommand{\nega}{\small [\n{neg.}]}
+\newcommand{\nom}{\small [\n{nom.}]}
+\newcommand{\num}{\small [\n{num.}]}
+\newcommand{\parti}{\small [\n{part.}]}
+\newcommand{\partic}{\small [\n{partic.}]}
+\newcommand{\pass}{\small [\n{pass.}]}
+\newcommand{\perf}{\small [\n{perf.}]}
+\newcommand{\pers}{\small [\n{pers.}]}
+\newcommand{\pl}{\small [\n{pl}]}
+\newcommand{\postp}{\small [\n{postp.}]}
+\newcommand{\prep}{\small [\n{prep.}]}
+\newcommand{\pres}{\small [\n{pres.}]}
+\newcommand{\pron}{\small [\n{pron.}]}
+\newcommand{\refl}{\small [\n{refl.}]}
+\newcommand{\sing}{\small [\n{sing.}]}
+\newcommand{\superi}{\small [\n{superi.}]}
+\newcommand{\term}{\small [\n{term.}]}
+\newcommand{\transi}{\small [\n{transi}]}
+\newcommand{\V}{\small [\n{V.}]}
+\newcommand{\vi}{\small [\n{v.i.}]}
+\newcommand{\vs}{\small [\n{vs.}]}
+\newcommand{\vt}{\small [\n{v.t.}]}
