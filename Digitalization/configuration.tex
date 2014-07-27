@@ -1,11 +1,4 @@
-\selectlanguage{english}
-
-\graphicspath{{img/}}
-
-% Lazy misc
-\newcommand{\m}[1]{\textbf{#1}} % 'm' from 'must'
-\newcommand{\n}[1]{\textit{#1}} % just because 'n' is near 'm'
-\newcommand{\p}[1]{\underline{#1}}
+%\graphicspath{{img/}}
 
 % Fancy sections' symbol
 \newcounter{fancysection}
@@ -33,37 +26,34 @@
 \newcommand{\Exercises}{\sectionItem{Exercises}}
 \newcommand{\Expressions}{\sectionItem{Expressions}}
 \newcommand{\AnswersToExercises}{\sectionItem{Answer to Exercises}}
-\newcommand{\Title}[1]{\begin{center}{\large \m{#1}}\end{center}}
+\newcommand{\Title}[1]{\begin{center}{\large \textbf{#1}}\end{center}}
 
-% To write Estonian words properly
-\newcommand{\et}[1]{\foreignlanguage{estonian}{#1}}
-\newcommand{\etBegin}{\selectlanguage{estonian}}
-\newcommand{\etEnd}{\selectlanguage{english}}
-
-
-
-\newcommand{\oneColumnTable}{
-	\etBegin
+% Lazy & misc
+\newcommand{\m}[1]{\textbf{#1}} % 'm' from 'must'
+\newcommand{\n}[1]{\textit{#1}} % just because 'n' is after 'm'
+\newcommand{\p}[1]{\underline{#1}} % 'p' was not taken
+\newcommand{\oneColumnTable}
+{
 	\begin{center}
 	\begin{tabular}{ l }
 }
-\newcommand{\twoColumnsTable}{
-	\etBegin
+\newcommand{\twoColumnsTable}
+{
 	\begin{center}
 	\begin{tabular}{ l l }
 }
-\newcommand{\threeColumnsTable}{
-	\etBegin
+\newcommand{\threeColumnsTable}
+{
 	\begin{center}
 	\begin{tabular}{ l l l }
 }
-\newcommand{\fourColumnsTable}{
-	\etBegin
+\newcommand{\fourColumnsTable}
+{
 	\begin{center}
 	\begin{tabular}{ l l l l }
 }
-\newcommand{\twoFixedColumnsTable}{
-	\etBegin
+\newcommand{\twoFixedColumnsTable}
+{
 	\begin{center}
 	\begin{tabular}{ p{0.4\textwidth} p{0.4\textwidth} }
 }
@@ -71,12 +61,9 @@
 {
 	\end{tabular}
 	\end{center}
-	\etEnd	
 }
 
-
 % Abbreviations & Symbols
-
 \newcommand{\abbr}{{\small [\n{abbr.}]}\ }
 \newcommand{\abess}{{\small [\n{abess.}]}\ }
 \newcommand{\abl}{{\small [\n{abl.}]}\ }
