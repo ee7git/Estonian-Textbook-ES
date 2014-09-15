@@ -22,6 +22,7 @@
 % Fancy Lessons' items
 \newcommand{\sectionItem}[1]{\vspace*{1em} {\Large\n{#1}} \vspace*{1em}}
 \newcommand{\Grammar}{\sectionItem{Grammar}}
+\newcommand{\Text}{\sectionItem{Text}}
 \newcommand{\Vocabulary}{\sectionItem{Vocabulary}}
 \newcommand{\Exercises}{\sectionItem{Exercises}}
 \newcommand{\Expressions}{\sectionItem{Expressions}}
@@ -31,37 +32,38 @@
 % Lazy & misc
 \newcommand{\m}[1]{\textbf{#1}} % 'm' from 'must'
 \newcommand{\n}[1]{\textit{#1}} % just because 'n' is after 'm'
-\newcommand{\p}[1]{\underline{#1}} % 'p' was not taken
-\newcommand{\oneColumnTable}
-{
+\newcommand{\p}[1]{\underline{#1}} % just because 'p' was not taken
+
+\newcommand{\centerBegin}{\begin{center}} 
+\newcommand{\centerEnd}{\end{center}} 
+
+\newcommand{\enumerateBegin}{\begin{enumerate}} 
+\newcommand{\enumerateEnd}{\end{enumerate}} 
+
+\newcommand{\oneColumnTable}{ 
 	\begin{center}
-	\begin{tabular}{ l }
-}
-\newcommand{\twoColumnsTable}
-{
+	\begin{tabular}{ l }}
+\newcommand{\twoColumnsTable}{
 	\begin{center}
-	\begin{tabular}{ l l }
-}
-\newcommand{\threeColumnsTable}
-{
+	\begin{tabular}{ l l }}
+\newcommand{\threeColumnsTable}{
 	\begin{center}
-	\begin{tabular}{ l l l }
-}
-\newcommand{\fourColumnsTable}
-{
+	\begin{tabular}{ l l l }}
+\newcommand{\fourColumnsTable}{
 	\begin{center}
-	\begin{tabular}{ l l l l }
-}
-\newcommand{\twoFixedColumnsTable}
-{
+	\begin{tabular}{ l l l l }}
+\newcommand{\fiveColumnsTable}{
 	\begin{center}
-	\begin{tabular}{ p{0.4\textwidth} p{0.4\textwidth} }
-}
-\newcommand{\tableEnd}
-{
+	\begin{tabular}{ l l l l l }}
+\newcommand{\sixColumnsTable}{
+	\begin{center}
+	\begin{tabular}{ l l l l l l }}
+\newcommand{\twoFixedColumnsTable}{
+	\begin{center}
+	\begin{tabular}{ p{0.4\textwidth} p{0.4\textwidth} }}
+\newcommand{\tableEnd}{
 	\end{tabular}
-	\end{center}
-}
+	\end{center}}
 
 % Abbreviations & Symbols
 \newcommand{\abbr}{{\small [\n{abbr.}]}\ }
